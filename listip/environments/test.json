@@ -1,0 +1,38 @@
+{
+    "default_attributes": {
+        "opsworks": {
+            "layers": {
+                "php-app": {
+                    "name": "PHP App Server",
+                    "id": "efd36017-ec42-4423-b655-53e4d3710652",
+                    "instances": {
+                        "php-app1": {
+                            "ip": "192.0.2.0"
+                        }
+                    }
+                },
+                "db-master": {
+                    "name": "MySQL",
+                    "id": "2d8e0b9a-0d29-43b7-8476-a9b2591a7251",
+                    "instances": {
+                        "db-master1": {
+                            "ip": "192.0.2.5"
+                        }
+                    }
+                },
+                "lb": {
+                    "name": "HAProxy",
+                    "id": "d5c4dda9-2888-4b22-b1ea-6d44c7841193",
+                    "instances": {
+                        "lb1": {
+                            "ip": "192.0.2.10"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "chef_type": "environment",
+    "json_class": "Chef::Environment"
+}
+

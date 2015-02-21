@@ -1,0 +1,19 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  environments_path: ./environments
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  - name: listip
+    provisioner:
+      client_rb:
+        environment: test
+    run_list:
+      - recipe[listip::default]
+    attributes:

@@ -1,0 +1,314 @@
+I, [2015-02-21T23:27:40.265206 #22162]  INFO -- listip-ubuntu-1404: -----> Creating <listip-ubuntu-1404>...
+I, [2015-02-21T23:27:41.333284 #22162]  INFO -- listip-ubuntu-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2015-02-21T23:27:41.729417 #22162]  INFO -- listip-ubuntu-1404: ==> default: Importing base box 'opscode-ubuntu-14.04'...
+I, [2015-02-21T23:28:02.633366 #22162]  INFO -- listip-ubuntu-1404: [KProgress: 10%[KProgress: 30%[KProgress: 40%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2015-02-21T23:28:03.602465 #22162]  INFO -- listip-ubuntu-1404: ==> default: Setting the name of the VM: listip-ubuntu-1404_default_1424521683539_15127
+I, [2015-02-21T23:28:04.757462 #22162]  INFO -- listip-ubuntu-1404: ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
+I, [2015-02-21T23:28:04.807323 #22162]  INFO -- listip-ubuntu-1404: ==> default: Clearing any previously set network interfaces...
+I, [2015-02-21T23:28:04.928462 #22162]  INFO -- listip-ubuntu-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2015-02-21T23:28:04.929216 #22162]  INFO -- listip-ubuntu-1404:     default: Adapter 1: nat
+I, [2015-02-21T23:28:05.047333 #22162]  INFO -- listip-ubuntu-1404: ==> default: Forwarding ports...
+I, [2015-02-21T23:28:05.124297 #22162]  INFO -- listip-ubuntu-1404:     default: 22 => 2200 (adapter 1)
+I, [2015-02-21T23:28:05.733745 #22162]  INFO -- listip-ubuntu-1404: ==> default: Booting VM...
+I, [2015-02-21T23:28:06.036905 #22162]  INFO -- listip-ubuntu-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2015-02-21T23:28:06.376558 #22162]  INFO -- listip-ubuntu-1404:     default: SSH address: 127.0.0.1:2200
+I, [2015-02-21T23:28:06.376817 #22162]  INFO -- listip-ubuntu-1404:     default: SSH username: vagrant
+I, [2015-02-21T23:28:06.377196 #22162]  INFO -- listip-ubuntu-1404:     default: SSH auth method: private key
+I, [2015-02-21T23:28:21.566261 #22162]  INFO -- listip-ubuntu-1404:     default: Warning: Connection timeout. Retrying...
+I, [2015-02-21T23:28:23.044413 #22162]  INFO -- listip-ubuntu-1404: ==> default: Machine booted and ready!
+I, [2015-02-21T23:28:23.045477 #22162]  INFO -- listip-ubuntu-1404: ==> default: Checking for guest additions in VM...
+I, [2015-02-21T23:28:23.096179 #22162]  INFO -- listip-ubuntu-1404: ==> default: Setting hostname...
+I, [2015-02-21T23:28:32.120656 #22162]  INFO -- listip-ubuntu-1404: ==> default: Machine not provisioning because `--no-provision` is specified.
+I, [2015-02-21T23:28:33.576392 #22162]  INFO -- listip-ubuntu-1404: Vagrant instance <listip-ubuntu-1404> created.
+I, [2015-02-21T23:28:33.577670 #22162]  INFO -- listip-ubuntu-1404: Finished creating <listip-ubuntu-1404> (0m53.31s).
+I, [2015-02-21T23:28:33.577790 #22162]  INFO -- listip-ubuntu-1404: -----> Converging <listip-ubuntu-1404>...
+I, [2015-02-21T23:28:33.578942 #22162]  INFO -- listip-ubuntu-1404: Preparing files for transfer
+I, [2015-02-21T23:28:33.579131 #22162]  INFO -- listip-ubuntu-1404: Preparing dna.json
+I, [2015-02-21T23:28:33.579557 #22162]  INFO -- listip-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-02-21T23:28:33.582142 #22162]  INFO -- listip-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-02-21T23:28:33.582707 #22162]  INFO -- listip-ubuntu-1404: Preparing environments
+I, [2015-02-21T23:28:33.583006 #22162]  INFO -- listip-ubuntu-1404: Preparing solo.rb
+I, [2015-02-21T23:28:33.802545 #22162]  INFO -- listip-ubuntu-1404: -----> Installing Chef Omnibus (install only if missing)
+I, [2015-02-21T23:28:33.802663 #22162]  INFO -- listip-ubuntu-1404: downloading https://www.chef.io/chef/install.sh
+I, [2015-02-21T23:28:33.802700 #22162]  INFO -- listip-ubuntu-1404:   to file /tmp/install.sh
+I, [2015-02-21T23:28:33.802731 #22162]  INFO -- listip-ubuntu-1404: trying wget...
+I, [2015-02-21T23:28:40.173706 #22162]  INFO -- listip-ubuntu-1404: Downloading Chef  for ubuntu...
+I, [2015-02-21T23:28:40.174131 #22162]  INFO -- listip-ubuntu-1404: downloading https://www.chef.io/chef/metadata?v=&prerelease=false&nightlies=false&p=ubuntu&pv=14.04&m=x86_64
+I, [2015-02-21T23:28:40.174427 #22162]  INFO -- listip-ubuntu-1404:   to file /tmp/install.sh.1291/metadata.txt
+I, [2015-02-21T23:28:40.174658 #22162]  INFO -- listip-ubuntu-1404: trying wget...
+I, [2015-02-21T23:28:46.142953 #22162]  INFO -- listip-ubuntu-1404: url	https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/13.04/x86_64/chef_12.0.3-1_amd64.deb
+I, [2015-02-21T23:28:46.144062 #22162]  INFO -- listip-ubuntu-1404: md5	76910abba3f7902d1b4d176f7a568c3a
+I, [2015-02-21T23:28:46.145406 #22162]  INFO -- listip-ubuntu-1404: sha256	3e172853aa0bcc27415a14b1013811dd44e5f523f4ba34714b66191ba365e796
+I, [2015-02-21T23:28:46.148978 #22162]  INFO -- listip-ubuntu-1404: downloaded metadata file looks valid...
+I, [2015-02-21T23:28:46.155800 #22162]  INFO -- listip-ubuntu-1404: downloading https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/13.04/x86_64/chef_12.0.3-1_amd64.deb
+I, [2015-02-21T23:28:46.156154 #22162]  INFO -- listip-ubuntu-1404:   to file /tmp/install.sh.1291/chef_12.0.3-1_amd64.deb
+I, [2015-02-21T23:28:46.156485 #22162]  INFO -- listip-ubuntu-1404: trying wget...
+I, [2015-02-21T23:29:27.523852 #22162]  INFO -- listip-ubuntu-1404: Comparing checksum with sha256sum...
+I, [2015-02-21T23:29:27.765467 #22162]  INFO -- listip-ubuntu-1404: Installing Chef 
+I, [2015-02-21T23:29:27.765760 #22162]  INFO -- listip-ubuntu-1404: installing with dpkg...
+I, [2015-02-21T23:29:27.814704 #22162]  INFO -- listip-ubuntu-1404: Selecting previously unselected package chef.
+I, [2015-02-21T23:29:27.918060 #22162]  INFO -- listip-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32400 files and directories currently installed.)
+I, [2015-02-21T23:29:27.919447 #22162]  INFO -- listip-ubuntu-1404: Preparing to unpack .../chef_12.0.3-1_amd64.deb ...
+I, [2015-02-21T23:29:27.923075 #22162]  INFO -- listip-ubuntu-1404: Unpacking chef (12.0.3-1) ...
+I, [2015-02-21T23:29:35.215105 #22162]  INFO -- listip-ubuntu-1404: Setting up chef (12.0.3-1) ...
+I, [2015-02-21T23:29:35.343125 #22162]  INFO -- listip-ubuntu-1404: Thank you for installing Chef!
+I, [2015-02-21T23:29:35.418707 #22162]  INFO -- listip-ubuntu-1404: Transferring files to <listip-ubuntu-1404>
+I, [2015-02-21T23:29:36.851724 #22162]  INFO -- listip-ubuntu-1404: Starting Chef Client, version 12.0.3
+I, [2015-02-21T23:29:43.535985 #22162]  INFO -- listip-ubuntu-1404: Compiling Cookbooks...
+I, [2015-02-21T23:29:43.538736 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.544654 #22162]  INFO -- listip-ubuntu-1404: ================================================================================
+I, [2015-02-21T23:29:43.545036 #22162]  INFO -- listip-ubuntu-1404: Recipe Compile Error in /tmp/kitchen/cookbooks/listip/recipes/default.rb
+I, [2015-02-21T23:29:43.545369 #22162]  INFO -- listip-ubuntu-1404: ================================================================================
+I, [2015-02-21T23:29:43.545600 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.545878 #22162]  INFO -- listip-ubuntu-1404: NoMethodError
+I, [2015-02-21T23:29:43.546145 #22162]  INFO -- listip-ubuntu-1404: -------------
+I, [2015-02-21T23:29:43.546474 #22162]  INFO -- listip-ubuntu-1404: undefined method `[]' for nil:NilClass
+I, [2015-02-21T23:29:43.546664 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.547032 #22162]  INFO -- listip-ubuntu-1404: Cookbook Trace:
+I, [2015-02-21T23:29:43.547316 #22162]  INFO -- listip-ubuntu-1404: ---------------
+I, [2015-02-21T23:29:43.547704 #22162]  INFO -- listip-ubuntu-1404:   /tmp/kitchen/cookbooks/listip/recipes/default.rb:1:in `from_file'
+I, [2015-02-21T23:29:43.547889 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.548141 #22162]  INFO -- listip-ubuntu-1404: Relevant File Content:
+I, [2015-02-21T23:29:43.549387 #22162]  INFO -- listip-ubuntu-1404: ----------------------
+I, [2015-02-21T23:29:43.549662 #22162]  INFO -- listip-ubuntu-1404: /tmp/kitchen/cookbooks/listip/recipes/default.rb:
+I, [2015-02-21T23:29:43.549853 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.549896 #22162]  INFO -- listip-ubuntu-1404:   1>> node['opsworks']['layers'].each do |layer, layerdata|
+I, [2015-02-21T23:29:43.549948 #22162]  INFO -- listip-ubuntu-1404:   2:      log "#{layerdata['name']} : #{layerdata['id']}"
+I, [2015-02-21T23:29:43.549983 #22162]  INFO -- listip-ubuntu-1404:   3:  end
+I, [2015-02-21T23:29:43.550262 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.550301 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.550335 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.554423 #22162]  INFO -- listip-ubuntu-1404: Running handlers:
+I, [2015-02-21T23:29:43.554729 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.554957 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.555142 #22162]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:29:43.555421 #22162]  INFO -- listip-ubuntu-1404: [2015-02-21T12:29:45+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2015-02-21T23:29:43.555669 #22162]  INFO -- listip-ubuntu-1404: Chef Client failed. 0 resources updated in 6.699219485 seconds
+I, [2015-02-21T23:29:43.578088 #22162]  INFO -- listip-ubuntu-1404: [2015-02-21T12:29:45+00:00] ERROR: undefined method `[]' for nil:NilClass
+I, [2015-02-21T23:29:43.624166 #22162]  INFO -- listip-ubuntu-1404: [2015-02-21T12:29:45+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2015-02-21T23:29:43.657596 #22162] ERROR -- listip-ubuntu-1404: Converge failed on instance <listip-ubuntu-1404>.
+E, [2015-02-21T23:29:43.657716 #22162] ERROR -- listip-ubuntu-1404: ------Exception-------
+E, [2015-02-21T23:29:43.657755 #22162] ERROR -- listip-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-02-21T23:29:43.657788 #22162] ERROR -- listip-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2015-02-21T23:29:43.657838 #22162] ERROR -- listip-ubuntu-1404: ---Nested Exception---
+E, [2015-02-21T23:29:43.657868 #22162] ERROR -- listip-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-02-21T23:29:43.657898 #22162] ERROR -- listip-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2015-02-21T23:29:43.657929 #22162] ERROR -- listip-ubuntu-1404: ------Backtrace-------
+E, [2015-02-21T23:29:43.657959 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
+E, [2015-02-21T23:29:43.658004 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
+E, [2015-02-21T23:29:43.658048 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
+E, [2015-02-21T23:29:43.658079 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/ssh.rb:70:in `initialize'
+E, [2015-02-21T23:29:43.658110 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:45:in `new'
+E, [2015-02-21T23:29:43.658158 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:45:in `converge'
+E, [2015-02-21T23:29:43.658200 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-02-21T23:29:43.658232 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:352:in `public_send'
+E, [2015-02-21T23:29:43.658262 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:352:in `block in perform_action'
+E, [2015-02-21T23:29:43.658292 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:416:in `call'
+E, [2015-02-21T23:29:43.658322 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:416:in `synchronize_or_call'
+E, [2015-02-21T23:29:43.658371 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:381:in `block in action'
+E, [2015-02-21T23:29:43.658401 #22162] ERROR -- listip-ubuntu-1404: /usr/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2015-02-21T23:29:43.658431 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:380:in `action'
+E, [2015-02-21T23:29:43.658461 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:352:in `perform_action'
+E, [2015-02-21T23:29:43.658491 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:312:in `converge_action'
+E, [2015-02-21T23:29:43.658521 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:292:in `block in transition_to'
+E, [2015-02-21T23:29:43.658551 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:291:in `each'
+E, [2015-02-21T23:29:43.658581 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:291:in `transition_to'
+E, [2015-02-21T23:29:43.658612 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:130:in `converge'
+E, [2015-02-21T23:29:43.658654 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/command.rb:176:in `public_send'
+E, [2015-02-21T23:29:43.658685 #22162] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
+E, [2015-02-21T23:29:43.658715 #22162] ERROR -- listip-ubuntu-1404: ----------------------
+I, [2015-02-21T23:33:32.554930 #23806]  INFO -- listip-ubuntu-1404: -----> Converging <listip-ubuntu-1404>...
+I, [2015-02-21T23:33:32.564494 #23806]  INFO -- listip-ubuntu-1404: Preparing files for transfer
+I, [2015-02-21T23:33:32.564606 #23806]  INFO -- listip-ubuntu-1404: Preparing dna.json
+I, [2015-02-21T23:33:32.564860 #23806]  INFO -- listip-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-02-21T23:33:32.565957 #23806]  INFO -- listip-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-02-21T23:33:32.566654 #23806]  INFO -- listip-ubuntu-1404: Preparing environments
+I, [2015-02-21T23:33:32.566985 #23806]  INFO -- listip-ubuntu-1404: Preparing solo.rb
+I, [2015-02-21T23:33:32.827314 #23806]  INFO -- listip-ubuntu-1404: -----> Chef Omnibus installation detected (install only if missing)
+I, [2015-02-21T23:33:32.870531 #23806]  INFO -- listip-ubuntu-1404: Transferring files to <listip-ubuntu-1404>
+I, [2015-02-21T23:33:34.149829 #23806]  INFO -- listip-ubuntu-1404: Starting Chef Client, version 12.0.3
+I, [2015-02-21T23:33:40.613682 #23806]  INFO -- listip-ubuntu-1404: Compiling Cookbooks...
+I, [2015-02-21T23:33:40.616207 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.616484 #23806]  INFO -- listip-ubuntu-1404: ================================================================================
+I, [2015-02-21T23:33:40.616737 #23806]  INFO -- listip-ubuntu-1404: Recipe Compile Error in /tmp/kitchen/cookbooks/listip/recipes/default.rb
+I, [2015-02-21T23:33:40.617091 #23806]  INFO -- listip-ubuntu-1404: ================================================================================
+I, [2015-02-21T23:33:40.617396 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.617755 #23806]  INFO -- listip-ubuntu-1404: NoMethodError
+I, [2015-02-21T23:33:40.618169 #23806]  INFO -- listip-ubuntu-1404: -------------
+I, [2015-02-21T23:33:40.618483 #23806]  INFO -- listip-ubuntu-1404: undefined method `[]' for nil:NilClass
+I, [2015-02-21T23:33:40.618716 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.619060 #23806]  INFO -- listip-ubuntu-1404: Cookbook Trace:
+I, [2015-02-21T23:33:40.619394 #23806]  INFO -- listip-ubuntu-1404: ---------------
+I, [2015-02-21T23:33:40.619744 #23806]  INFO -- listip-ubuntu-1404:   /tmp/kitchen/cookbooks/listip/recipes/default.rb:1:in `from_file'
+I, [2015-02-21T23:33:40.619974 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.620473 #23806]  INFO -- listip-ubuntu-1404: Relevant File Content:
+I, [2015-02-21T23:33:40.620855 #23806]  INFO -- listip-ubuntu-1404: ----------------------
+I, [2015-02-21T23:33:40.621341 #23806]  INFO -- listip-ubuntu-1404: /tmp/kitchen/cookbooks/listip/recipes/default.rb:
+I, [2015-02-21T23:33:40.621587 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.621861 #23806]  INFO -- listip-ubuntu-1404:   1>> node['opsworks']['layers'].each do |layer, layerdata|
+I, [2015-02-21T23:33:40.622267 #23806]  INFO -- listip-ubuntu-1404:   2:    log "#{layerdata['name']} : #{layerdata['id']}"
+I, [2015-02-21T23:33:40.622529 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.622696 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.623090 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.623134 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.623553 #23806]  INFO -- listip-ubuntu-1404: Running handlers:
+I, [2015-02-21T23:33:40.623757 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.624662 #23806]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:33:40.624709 #23806]  INFO -- listip-ubuntu-1404: [2015-02-21T12:33:42+00:00] ERROR: Exception handlers complete
+I, [2015-02-21T23:33:40.625052 #23806]  INFO -- listip-ubuntu-1404: [2015-02-21T12:33:42+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2015-02-21T23:33:40.625705 #23806]  INFO -- listip-ubuntu-1404: Chef Client failed. 0 resources updated in 6.477861355 seconds
+I, [2015-02-21T23:33:40.650641 #23806]  INFO -- listip-ubuntu-1404: [2015-02-21T12:33:42+00:00] ERROR: undefined method `[]' for nil:NilClass
+I, [2015-02-21T23:33:40.686483 #23806]  INFO -- listip-ubuntu-1404: [2015-02-21T12:33:42+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2015-02-21T23:33:40.720877 #23806] ERROR -- listip-ubuntu-1404: Converge failed on instance <listip-ubuntu-1404>.
+E, [2015-02-21T23:33:40.721023 #23806] ERROR -- listip-ubuntu-1404: ------Exception-------
+E, [2015-02-21T23:33:40.721076 #23806] ERROR -- listip-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-02-21T23:33:40.721109 #23806] ERROR -- listip-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2015-02-21T23:33:40.721133 #23806] ERROR -- listip-ubuntu-1404: ---Nested Exception---
+E, [2015-02-21T23:33:40.721156 #23806] ERROR -- listip-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-02-21T23:33:40.721178 #23806] ERROR -- listip-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2015-02-21T23:33:40.721200 #23806] ERROR -- listip-ubuntu-1404: ------Backtrace-------
+E, [2015-02-21T23:33:40.721222 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
+E, [2015-02-21T23:33:40.721269 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
+E, [2015-02-21T23:33:40.721293 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
+E, [2015-02-21T23:33:40.721314 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/ssh.rb:70:in `initialize'
+E, [2015-02-21T23:33:40.721336 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:45:in `new'
+E, [2015-02-21T23:33:40.721357 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:45:in `converge'
+E, [2015-02-21T23:33:40.721378 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-02-21T23:33:40.721399 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:352:in `public_send'
+E, [2015-02-21T23:33:40.721419 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:352:in `block in perform_action'
+E, [2015-02-21T23:33:40.721440 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:416:in `call'
+E, [2015-02-21T23:33:40.721461 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:416:in `synchronize_or_call'
+E, [2015-02-21T23:33:40.721493 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:381:in `block in action'
+E, [2015-02-21T23:33:40.721515 #23806] ERROR -- listip-ubuntu-1404: /usr/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2015-02-21T23:33:40.721535 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:380:in `action'
+E, [2015-02-21T23:33:40.721555 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:352:in `perform_action'
+E, [2015-02-21T23:33:40.721576 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:312:in `converge_action'
+E, [2015-02-21T23:33:40.721597 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:292:in `block in transition_to'
+E, [2015-02-21T23:33:40.721618 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:291:in `each'
+E, [2015-02-21T23:33:40.721639 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:291:in `transition_to'
+E, [2015-02-21T23:33:40.721660 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:130:in `converge'
+E, [2015-02-21T23:33:40.721693 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/command.rb:176:in `public_send'
+E, [2015-02-21T23:33:40.721714 #23806] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
+E, [2015-02-21T23:33:40.721735 #23806] ERROR -- listip-ubuntu-1404: ----------------------
+I, [2015-02-21T23:34:59.517853 #23838]  INFO -- listip-ubuntu-1404: -----> Converging <listip-ubuntu-1404>...
+I, [2015-02-21T23:34:59.528330 #23838]  INFO -- listip-ubuntu-1404: Preparing files for transfer
+I, [2015-02-21T23:34:59.528499 #23838]  INFO -- listip-ubuntu-1404: Preparing dna.json
+I, [2015-02-21T23:34:59.528940 #23838]  INFO -- listip-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-02-21T23:34:59.530967 #23838]  INFO -- listip-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-02-21T23:34:59.531937 #23838]  INFO -- listip-ubuntu-1404: Preparing environments
+I, [2015-02-21T23:34:59.532433 #23838]  INFO -- listip-ubuntu-1404: Preparing solo.rb
+I, [2015-02-21T23:34:59.767182 #23838]  INFO -- listip-ubuntu-1404: -----> Chef Omnibus installation detected (install only if missing)
+I, [2015-02-21T23:34:59.810582 #23838]  INFO -- listip-ubuntu-1404: Transferring files to <listip-ubuntu-1404>
+I, [2015-02-21T23:35:01.123231 #23838]  INFO -- listip-ubuntu-1404: Starting Chef Client, version 12.0.3
+I, [2015-02-21T23:35:07.468820 #23838]  INFO -- listip-ubuntu-1404: Compiling Cookbooks...
+I, [2015-02-21T23:35:07.470551 #23838]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:35:07.471010 #23838]  INFO -- listip-ubuntu-1404: ================================================================================
+I, [2015-02-21T23:35:07.471369 #23838]  INFO -- listip-ubuntu-1404: Recipe Compile Error in /tmp/kitchen/cookbooks/listip/recipes/default.rb
+I, [2015-02-21T23:35:07.471719 #23838]  INFO -- listip-ubuntu-1404: ================================================================================
+I, [2015-02-21T23:35:07.471863 #23838]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:35:07.472208 #23838]  INFO -- listip-ubuntu-1404: NoMethodError
+I, [2015-02-21T23:35:07.472549 #23838]  INFO -- listip-ubuntu-1404: -------------
+I, [2015-02-21T23:35:07.472847 #23838]  INFO -- listip-ubuntu-1404: undefined method `[]' for nil:NilClass
+I, [2015-02-21T23:35:07.473051 #23838]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:35:07.473429 #23838]  INFO -- listip-ubuntu-1404: Cookbook Trace:
+I, [2015-02-21T23:35:07.473750 #23838]  INFO -- listip-ubuntu-1404: ---------------
+I, [2015-02-21T23:35:07.474078 #23838]  INFO -- listip-ubuntu-1404:   /tmp/kitchen/cookbooks/listip/recipes/default.rb:1:in `from_file'
+I, [2015-02-21T23:35:07.474322 #23838]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:35:07.474612 #23838]  INFO -- listip-ubuntu-1404: Relevant File Content:
+I, [2015-02-21T23:35:07.474930 #23838]  INFO -- listip-ubuntu-1404: ----------------------
+I, [2015-02-21T23:35:07.475239 #23838]  INFO -- listip-ubuntu-1404: /tmp/kitchen/cookbooks/listip/recipes/default.rb:
+I, [2015-02-21T23:35:07.475401 #23838]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:35:07.475967 #23838]  INFO -- listip-ubuntu-1404:   1>> node['opsworks']['layers'].each do |layer, layerdata|
+I, [2015-02-21T23:35:07.476005 #23838]  INFO -- listip-ubuntu-1404:   2:    log "#{layer}"
+I, [2015-02-21T23:35:07.476030 #23838]  INFO -- listip-ubuntu-1404:   3:  end
+I, [2015-02-21T23:35:07.476053 #23838]  INFO -- listip-ubuntu-1404:   4:  
+I, [2015-02-21T23:35:07.476082 #23838]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:35:07.476105 #23838]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:35:07.476503 #23838]  INFO -- listip-ubuntu-1404: Running handlers:
+I, [2015-02-21T23:35:07.476671 #23838]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:35:07.477458 #23838]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:35:07.477500 #23838]  INFO -- listip-ubuntu-1404: [2015-02-21T12:35:09+00:00] ERROR: Exception handlers complete
+I, [2015-02-21T23:35:07.477895 #23838]  INFO -- listip-ubuntu-1404: [2015-02-21T12:35:09+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2015-02-21T23:35:07.478415 #23838]  INFO -- listip-ubuntu-1404: Chef Client failed. 0 resources updated in 6.357015395 seconds
+I, [2015-02-21T23:35:07.501809 #23838]  INFO -- listip-ubuntu-1404: [2015-02-21T12:35:09+00:00] ERROR: undefined method `[]' for nil:NilClass
+I, [2015-02-21T23:35:07.540094 #23838]  INFO -- listip-ubuntu-1404: [2015-02-21T12:35:09+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2015-02-21T23:35:07.570456 #23838] ERROR -- listip-ubuntu-1404: Converge failed on instance <listip-ubuntu-1404>.
+E, [2015-02-21T23:35:07.570558 #23838] ERROR -- listip-ubuntu-1404: ------Exception-------
+E, [2015-02-21T23:35:07.570589 #23838] ERROR -- listip-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-02-21T23:35:07.570615 #23838] ERROR -- listip-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2015-02-21T23:35:07.570648 #23838] ERROR -- listip-ubuntu-1404: ---Nested Exception---
+E, [2015-02-21T23:35:07.570674 #23838] ERROR -- listip-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-02-21T23:35:07.570698 #23838] ERROR -- listip-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
+']
+E, [2015-02-21T23:35:07.570725 #23838] ERROR -- listip-ubuntu-1404: ------Backtrace-------
+E, [2015-02-21T23:35:07.570750 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
+E, [2015-02-21T23:35:07.570774 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
+E, [2015-02-21T23:35:07.570797 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
+E, [2015-02-21T23:35:07.570821 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/ssh.rb:70:in `initialize'
+E, [2015-02-21T23:35:07.570846 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:45:in `new'
+E, [2015-02-21T23:35:07.570870 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/driver/ssh_base.rb:45:in `converge'
+E, [2015-02-21T23:35:07.570893 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-02-21T23:35:07.570920 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:352:in `public_send'
+E, [2015-02-21T23:35:07.570944 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:352:in `block in perform_action'
+E, [2015-02-21T23:35:07.574871 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:416:in `call'
+E, [2015-02-21T23:35:07.574932 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:416:in `synchronize_or_call'
+E, [2015-02-21T23:35:07.574954 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:381:in `block in action'
+E, [2015-02-21T23:35:07.574975 #23838] ERROR -- listip-ubuntu-1404: /usr/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2015-02-21T23:35:07.574996 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:380:in `action'
+E, [2015-02-21T23:35:07.575024 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:352:in `perform_action'
+E, [2015-02-21T23:35:07.575059 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:312:in `converge_action'
+E, [2015-02-21T23:35:07.575095 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:292:in `block in transition_to'
+E, [2015-02-21T23:35:07.575128 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:291:in `each'
+E, [2015-02-21T23:35:07.575153 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:291:in `transition_to'
+E, [2015-02-21T23:35:07.575178 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/instance.rb:130:in `converge'
+E, [2015-02-21T23:35:07.575210 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/command.rb:176:in `public_send'
+E, [2015-02-21T23:35:07.575235 #23838] ERROR -- listip-ubuntu-1404: /var/lib/gems/1.9.1/gems/test-kitchen-1.3.1/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
+E, [2015-02-21T23:35:07.575272 #23838] ERROR -- listip-ubuntu-1404: ----------------------
+I, [2015-02-21T23:42:36.398240 #24032]  INFO -- listip-ubuntu-1404: -----> Converging <listip-ubuntu-1404>...
+I, [2015-02-21T23:42:36.410180 #24032]  INFO -- listip-ubuntu-1404: Preparing files for transfer
+I, [2015-02-21T23:42:36.410422 #24032]  INFO -- listip-ubuntu-1404: Preparing dna.json
+I, [2015-02-21T23:42:36.411002 #24032]  INFO -- listip-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-02-21T23:42:36.414168 #24032]  INFO -- listip-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-02-21T23:42:36.414815 #24032]  INFO -- listip-ubuntu-1404: Preparing environments
+I, [2015-02-21T23:42:36.415163 #24032]  INFO -- listip-ubuntu-1404: Preparing validation.pem
+I, [2015-02-21T23:42:36.418011 #24032]  INFO -- listip-ubuntu-1404: Preparing client.rb
+I, [2015-02-21T23:42:36.634825 #24032]  INFO -- listip-ubuntu-1404: -----> Chef Omnibus installation detected (install only if missing)
+I, [2015-02-21T23:42:36.678527 #24032]  INFO -- listip-ubuntu-1404: Transferring files to <listip-ubuntu-1404>
+I, [2015-02-21T23:42:38.245237 #24032]  INFO -- listip-ubuntu-1404: Starting Chef Client, version 12.0.3
+I, [2015-02-21T23:42:44.593437 #24032]  INFO -- listip-ubuntu-1404: Creating a new client identity for listip-ubuntu-1404 using the validator key.
+I, [2015-02-21T23:42:44.718103 #24032]  INFO -- listip-ubuntu-1404: [2015-02-21T12:42:46+00:00] WARN: Child with name 'dna.json' found in multiple directories: /tmp/kitchen/dna.json and /tmp/kitchen/dna.json
+I, [2015-02-21T23:42:44.727623 #24032]  INFO -- listip-ubuntu-1404: [2015-02-21T12:42:46+00:00] WARN: Child with name 'dna.json' found in multiple directories: /tmp/kitchen/dna.json and /tmp/kitchen/dna.json
+I, [2015-02-21T23:42:44.752254 #24032]  INFO -- listip-ubuntu-1404: [2015-02-21T12:42:46+00:00] WARN: Child with name 'dna.json' found in multiple directories: /tmp/kitchen/dna.json and /tmp/kitchen/dna.json
+I, [2015-02-21T23:42:44.764509 #24032]  INFO -- listip-ubuntu-1404: resolving cookbooks for run list: ["listip::default"]
+I, [2015-02-21T23:42:44.786344 #24032]  INFO -- listip-ubuntu-1404: Synchronizing Cookbooks:
+I, [2015-02-21T23:42:44.803967 #24032]  INFO -- listip-ubuntu-1404:   - listip
+I, [2015-02-21T23:42:44.809591 #24032]  INFO -- listip-ubuntu-1404: Compiling Cookbooks...
+I, [2015-02-21T23:42:44.809960 #24032]  INFO -- listip-ubuntu-1404: Converging 3 resources
+I, [2015-02-21T23:42:44.810190 #24032]  INFO -- listip-ubuntu-1404: Recipe: listip::default
+I, [2015-02-21T23:42:44.812646 #24032]  INFO -- listip-ubuntu-1404:   * log[php-app] action write
+I, [2015-02-21T23:42:44.813129 #24032]  INFO -- listip-ubuntu-1404:   
+I, [2015-02-21T23:42:44.815061 #24032]  INFO -- listip-ubuntu-1404:   * log[db-master] action write
+I, [2015-02-21T23:42:44.815474 #24032]  INFO -- listip-ubuntu-1404:   
+I, [2015-02-21T23:42:44.816417 #24032]  INFO -- listip-ubuntu-1404:   * log[lb] action write
+I, [2015-02-21T23:42:44.816694 #24032]  INFO -- listip-ubuntu-1404:   
+I, [2015-02-21T23:42:44.847222 #24032]  INFO -- listip-ubuntu-1404: 
+I, [2015-02-21T23:42:44.847558 #24032]  INFO -- listip-ubuntu-1404: Running handlers:
+I, [2015-02-21T23:42:44.847855 #24032]  INFO -- listip-ubuntu-1404: Running handlers complete
+I, [2015-02-21T23:42:44.848262 #24032]  INFO -- listip-ubuntu-1404: Chef Client finished, 3/3 resources updated in 6.608636367 seconds
+I, [2015-02-21T23:42:46.877317 #24032]  INFO -- listip-ubuntu-1404: Finished converging <listip-ubuntu-1404> (0m10.48s).
+I, [2015-02-22T00:03:03.059030 #24529]  INFO -- listip-ubuntu-1404: -----> Destroying <listip-ubuntu-1404>...
+I, [2015-02-22T00:03:05.560087 #24529]  INFO -- listip-ubuntu-1404: ==> default: Forcing shutdown of VM...
+I, [2015-02-22T00:03:06.870168 #24529]  INFO -- listip-ubuntu-1404: ==> default: Destroying VM and associated drives...
+I, [2015-02-22T00:03:07.557832 #24529]  INFO -- listip-ubuntu-1404: Vagrant instance <listip-ubuntu-1404> destroyed.
+I, [2015-02-22T00:03:07.561057 #24529]  INFO -- listip-ubuntu-1404: Finished destroying <listip-ubuntu-1404> (0m4.50s).

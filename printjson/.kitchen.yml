@@ -1,0 +1,19 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+  environments_path: ./environments
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  - name: default
+    provisioner:
+      solo_rb:
+        environment: test
+    run_list:
+      - recipe[printjson::default]
+    attributes:

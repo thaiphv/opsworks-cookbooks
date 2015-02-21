@@ -1,0 +1,12 @@
+{
+  "default_attributes": {
+    "opsworks" : {
+      "stack" : {
+        "name" : "MyStack",
+        "id" : "42dfd151-6766-4f1c-9940-ba79e5220b58"
+      }
+    }
+  },
+  "chef_type" : "environment",
+  "json_class" : "Chef::Environment"
+}
